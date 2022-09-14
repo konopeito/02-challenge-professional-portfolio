@@ -12,6 +12,7 @@ body {
   background-color: #fffffe;
   color: #4F4846;
 }
+
 p {
   text-align: center;
 }
@@ -21,25 +22,24 @@ h1,
 h2 {
   text-align: center;
   margin: 20px;
-  border: groove 2px rgba(201, 112, 112, 0.147); 
+  border: groove 2px rgba(201, 112, 112, 0.147);
   border-radius: 10px;
 }
 
 main {
   padding: 60px 0;
 
-  
+
 }
 
 li {
-  display: inline
-  padding: 0px 20px;
+  display: inline padding: 0px 20px;
   text-decoration: wavy;
 }
 
 a {
   text-align: center;
-    color: #856e61;
+  color: #856e61;
 }
 
 header,
@@ -50,17 +50,15 @@ footer {
 
 }
 
-.header-bar {
-
-}
 header {
-  position: fixed;
-  border-bottom: 5px solid #b8799a; opacity: ;
+  position: auto;
+  border-bottom: 5px solid #b8799a;
 }
 
 footer {
+  height: 130px;
   position: relative;
-  border-bottom: 10px solid #dbceca;
+  border-top: 10px solid #dbceca;
   color: #bb6681;
 }
 
@@ -81,7 +79,7 @@ section {
 }
 
 form {
-  
+
   margin: 0 auto;
   width: 500px;
   padding: 10px;
@@ -117,21 +115,29 @@ button {
   text-align: center;
   margin: 10px;
 }
+
 #cat {
   border: outset 10px rgba(202, 164, 144, 0.222)
 }
+
 #sub-header {
   text-align: center;
   flex: auto;
-  
-  
+
+
 }
+
 .nav-bar {
+  display: flex;
+  justify-content: space-between;
   text-align: right;
   background-color: #f2d7cf;
-  width: 100%
-  background-color: #af7e53;
+  width: 100% background-color: #af7e53;
   overflow: auto;
+}
+
+#padding {
+  padding-top: 25px;
 }
 
 ul {
@@ -140,35 +146,54 @@ ul {
   padding: 0;
 }
 
-#search,#home,#gallery,#contact {
+#search,
+#home,
+#gallery,
+#contact {
   color: #8d4a6d;
-  filter: drop-shadow(1px 9px 5px); 
-  filter: brightness(1.2); 
+  filter: drop-shadow(1px 9px 5px);
+  filter: brightness(1.2);
 }
 
 .card {
   color: #894468;
   background-color: #f4eddd;
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
   border: #bd3a7ec1;
 }
 
-  .column {
-columns: 5;
-column-gap: 4px;
-column-rule: 2px dashed #e14093;
-column-span: all;
+.column {
+  columns: 5;
+  column-gap: 4px;
+  column-rule: 2px dashed #e14093;
+  column-span: all;
+}
+
+.address {
+  position: relative;
+  text-align: center;
+  color: #894468;
+}
+
+#cell,
+#gmail {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  border: #894468;
+}
+
+@media screen and (max-width:800px) {
+  .form {
+    width: 300px;
+    display: block;
   }
 
-  .address {
-    position: relative;
-    text-align: right;
-    color: #894468;
+  form {
+    width: 300px;
   }
 
-  #cell, #gmail {
-text-align: center;
-position: relative;
-margin: auto;
-border: #894468;
+  header {
+    width: 600px;
   }
+}
