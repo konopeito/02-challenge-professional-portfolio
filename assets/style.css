@@ -22,10 +22,27 @@ h1,
 h2 {
   text-align: center;
   margin: 20px;
-  border: groove 2px rgba(201, 112, 112, 0.147);
+  border: solid 2px rgba(201, 112, 112, 0.147);
   border-radius: 10px;
+  color: #8d4a6d;
+
 }
 
+ h1 {
+  background-color: #f8beba94;
+}
+h2 {
+  background-color: #fff2ef;
+}
+#name-main {
+  color: #924568;
+ background-color: #f2d7cf;
+ border: none;
+ padding: 2px;
+}
+.heading {
+  margin: 50px;
+}
 main {
   padding: 60px 0;
 
@@ -124,8 +141,8 @@ button {
   text-align: center;
   flex: auto;
 
-
 }
+
 
 .nav-bar {
   display: flex;
