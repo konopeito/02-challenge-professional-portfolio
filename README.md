@@ -26,4 +26,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 This project's purpose is to display and showcase a website portfolio for hiring companies to view projects of mine that I create. Despite being a new student and not having any portfolio projects, I added placeholders where the projects would be. Regardless, this assignment motivated me to create something I could express on and display what I have learned with Advanced CSS elements. I learned how to use flexboxes, media queries, and advanced CSS elements, properties and tags.
 
 ## Mockup
-https://github.com/JFritsch04/02-challenge-professional-portfolio/blob/5b9591856830b41225703b42902dae036a9f25f3/mockup.png
+https://github.com/JFritsch04/02-challenge-professional-portfolio/blob/cc5da0ecc62f345966c4d613a0ab66f5220eb70b/mockup.png
