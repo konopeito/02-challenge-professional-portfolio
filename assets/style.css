@@ -1,0 +1,174 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: 'Kalam';
+  font-size: 20px;
+  background-color: #fffffe;
+  color: #4F4846;
+}
+p {
+  text-align: center;
+}
+
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px;
+  border: groove 2px rgba(201, 112, 112, 0.147); 
+  border-radius: 10px;
+}
+
+main {
+  padding: 60px 0;
+
+  
+}
+
+li {
+  display: inline
+  padding: 0px 20px;
+  text-decoration: wavy;
+}
+
+a {
+  text-align: center;
+    color: #856e61;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+
+}
+
+.header-bar {
+
+}
+header {
+  position: fixed;
+  border-bottom: 5px solid #b8799a; opacity: ;
+}
+
+footer {
+  position: relative;
+  border-bottom: 10px solid #dbceca;
+  color: #bb6681;
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #ffdcc7;
+  background-color: #E8CEBF;
+}
+
+form {
+  
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #f5e4db;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #ca7c67;
+  color: #FDF8F5;
+}
+
+.text-center {
+  text-align: center;
+  margin: 10px;
+}
+#cat {
+  border: outset 10px rgba(202, 164, 144, 0.222)
+}
+#sub-header {
+  text-align: center;
+  flex: auto;
+  
+  
+}
+.nav-bar {
+  text-align: right;
+  background-color: #f2d7cf;
+  width: 100%
+  background-color: #af7e53;
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#search,#home,#gallery,#contact {
+  color: #8d4a6d;
+  filter: drop-shadow(1px 9px 5px); 
+  filter: brightness(1.2); 
+}
+
+.card {
+  color: #894468;
+  background-color: #f4eddd;
+  margin: 10px;
+  border: #bd3a7ec1;
+}
+
+  .column {
+columns: 5;
+column-gap: 4px;
+column-rule: 2px dashed #e14093;
+column-span: all;
+  }
+
+  .address {
+    position: relative;
+    text-align: right;
+    color: #894468;
+  }
+
+  #cell, #gmail {
+text-align: center;
+position: relative;
+margin: auto;
+border: #894468;
+  }
