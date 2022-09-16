@@ -27,3 +27,4 @@ This project's purpose is to display and showcase a website portfolio for hiring
 
 ## Mockup
 https://github.com/JFritsch04/02-challenge-professional-portfolio/blob/cc5da0ecc62f345966c4d613a0ab66f5220eb70b/mockup.png
+https://jfritsch04.github.io/02-challenge-professional-portfolio/
